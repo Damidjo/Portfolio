@@ -10,11 +10,14 @@
 .svn/
 migrate_working_dir/
 
-# Android Studio related
+# Android Studio/IntelliJ related
 *.iml
 *.ipr
 *.iws
 .idea/
+
+# VSCode related
+.vscode/
 
 # Flutter/Dart/Pub related
 **/doc/api/
@@ -25,3 +28,28 @@ migrate_working_dir/
 .pub-cache/
 .pub/
 /build/
+.build/
+.history/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug/
+/android/app/profile/
+/android/app/release/
+
+# Xcode build
+/ios/Flutter/Flutter.framework/
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/App.framework/
+/ios/Flutter/App.generated.xcconfig
+
+# Web-related
+/web/build/
+
+# Windows-related
+/windows/Build/
